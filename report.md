@@ -82,6 +82,31 @@ Members:
   +  The features `MOBILE_LOGINS`, `PC_LOGINS`, `AVG_PREP_VID_TIME`, `AVG_CLICKS_PER_VISIT` also influence the `CROSS_SELL_SUCCESS` but to a lesser extent.
   +  The features with little to no correlation with `CROSS_SELL_SUCCESS`, which can be removed, are `REVENUE`, `UNIQUE_MEALS_PURCH`, `PRODUCT_CATEGORIES_VIEWED`.
 
-## Solutions
+- Bar chart:
+![image](https://github.com/user-attachments/assets/12bc629f-2aa2-4323-89e7-e853a5a107f6)
+-> Most of PC_LOGINS values are in range 5 - 6, while other values appear miniscule.
 
-## Results
+![image](https://github.com/user-attachments/assets/d7e6e395-9fdc-4d13-a3bf-f477037e797a)
+-> Most of MOBILE_LOGINS values are in range 1 - 2, while other values appear miniscule.
+
+![image](https://github.com/user-attachments/assets/adc55f58-c3c4-4735-8dbb-0432c7db7bef)
+![image](https://github.com/user-attachments/assets/35a26f1e-a581-45fb-9380-a0a68a67f9a3)
+-> The charts illustrate that customers having mobile numbers or having tastes and preferences tend to have `CROSS_SELL_SUCCESS` value equals to 1.
+
+- Box plot:
+
+![image](https://github.com/user-attachments/assets/3453c4bc-3a16-4a40-8e25-c00578a8fd8e)
+-> We can see from the chart that customers having a number of cancellations before noon larger than 1 tend to be selling success. It confirms that the number of cancellations before noon is a critical factor in predicting cross sell success.
+
+## Solutions
+- Preprocessing data: In this problem, we preprocessed data by Categorical Encoding (transforming categorical data into integer representation), Feature Engineering, Handling Class Imbalance by SMOTE, Feature Selection,...
+- Modelling: We tested with some other optimized Decision Tree like: Baseline, Hyperparameter tuning, Stacking, Voting, Bagging, Boosting (Adaboost).
+## Results  
+| Model | Result using Raw Data | Result using Processed Data |
+| ----- | --------------------- | --------------------------- |
+| Baseline | 0.4635 | 0.6665 |
+| Hyperparameter tuning | 0.5873 | 0.7159 |
+| Stacking | 0.5731 | 0.7339 |
+| Voting | 0.5960 | 0.7389 |
+| Bagging | 0.6131 | 0.7124 |
+| Boosting (Adaboost) | 0.5778 | 0.8249 |
