@@ -1,4 +1,4 @@
-# Customer forecasting for promotional campaigns report
+# Customer Forecasting for Promotional Campaigns – Report
 
 ## About my team
 Team name: HVAInternational 
