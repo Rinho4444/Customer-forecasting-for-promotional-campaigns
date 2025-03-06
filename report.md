@@ -76,6 +76,12 @@ Members:
 
 #### Overall, although there are a lot of outliers shown in these histograms, most are natural outliers, still following the overall distribution of data. This means these histograms display very few extreme outliers.
 
+- Heatmap (Correlation Matrix):
+![image](https://github.com/user-attachments/assets/1403a8b9-40de-4592-8891-32a38f894a68)
+  +  The features that have the highest correlation with CROSS_SELL_SUCCESS in decreasing order are CANCELLATIONS_BEFORE_NOON, MOBILE_NUMBER, TASTES_AND_PREFERENCES, REFRIGERATED_LOCKER, ... However the correlation are quite low, within 7% - 16%
+  +  The features MOBILE_LOGINS, PC_LOGINS, AVG_PREP_VID_TIME, AVG_CLICKS_PER_VISIT also influence the CROSS_SELL_SUCCESS but to a lesser extent.
+  +  The features with little to no correlation with CROSS_SELL_SUCCESS , which can be removed, are REVENUE, UNIQUE_MEALS_PURCH, PRODUCT_CATEGORIES_VIEWED
+
 ## Solutions
 
 ## Results
