@@ -74,7 +74,7 @@ Members:
 ![image](https://github.com/user-attachments/assets/8e5af18d-9c20-4f09-b882-ac18e9f6cfeb)
 -> Most values fall within 60 - 300, peaking around 150. The distributions exhibit a roughly Gaussian shape, except an unusual increase at approximately 100, suggesting that the features follow an approximately normal distribution.
 
-##### Overall, although there are a lot of outliers shown in these histograms, most are natural outliers, still following the overall distribution of data. This means these histograms display very few extreme outliers.
+#### Overall, although there are a lot of outliers shown in these histograms, most are natural outliers, still following the overall distribution of data. This means these histograms display very few extreme outliers.
 
 ## Solutions
 
