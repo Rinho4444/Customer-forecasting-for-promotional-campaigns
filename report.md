@@ -109,4 +109,8 @@ Members:
 | Stacking | 0.5731 | 0.7339 |
 | Voting | 0.5960 | 0.7389 |
 | Bagging | 0.6131 | 0.7124 |
-| Boosting (Adaboost) | 0.5778 | 0.8249 |
+| Boosting (Adaboost) | 0.5778 | 0.8249 | 
+
+-> Comment: **0.8249** is quite the good result, as the baseline model with raw data only achieve **0.4635**.  
+## Conclusions 
+Our optimized Boosting (AdaBoost) Random Forest model demonstrated strong performance in customer forecasting for promotional campaigns. With further enhancements and well-planned deployment strategies, this model has the potential to become a powerful tool for real-world restaurant applications.
