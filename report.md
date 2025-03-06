@@ -61,6 +61,21 @@ Members:
 | 1600.0  | 0                  | Turnip | turnip@yahoo.com | Turnip | Turnip | 74.0 | 3.0 | 10.0 | 10.0 | ... | 3.0 | 0.0 | 0.0 | 0.0 | 564.2 | 10.0 | 3.0 | 3.0 | 11.0 | 796.0 |
 | 2050.0  | 1                  | Tommard Heddle | tommard.heddle@merck.com | Tommard | Heddle | 188.0 | 4.0 | 9.0 | 5.0 | ... | 3.0 | 1.0 | 1.0 | 0.0 | 248.0 | 11.0 | 2.0 | 3.0 | 12.0 | 0.0 | 
 
+- Histogram
+![image](https://github.com/user-attachments/assets/67aa6b16-afda-49ce-b770-b07fd3b21be9)
+-> Most values fall within 500 - 6000, peaking around 1500. The distribution shows **2 adjacent Gaussian shapes**, suggesting that the features follow an approximately normal distribution.
+
+![image](https://github.com/user-attachments/assets/4d1081db-bbae-4425-a3b8-5eb329353e6d)
+-> Most values fall within 0 - 300, peaking around 50. The distribution exhibits a **right-skewed shape**.
+
+![image](https://github.com/user-attachments/assets/aef7dddd-428f-4898-9146-4ccfd64f9142)
+-> Most values fall within 0 - 250, peaking around 100. The distribution forms a roughly Gaussian shape, suggesting that the features follow an approximately normal distribution.
+
+![image](https://github.com/user-attachments/assets/8e5af18d-9c20-4f09-b882-ac18e9f6cfeb)
+-> Most values fall within 60 - 300, peaking around 150. The distributions exhibit a roughly Gaussian shape, except an unusual increase at approximately 100, suggesting that the features follow an approximately normal distribution.
+
+##### Overall, although there are a lot of outliers shown in these histograms, most are natural outliers, still following the overall distribution of data. This means these histograms display very few extreme outliers.
+
 ## Solutions
 
 ## Results
