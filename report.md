@@ -45,7 +45,7 @@ Members:
   + In the target set: **Value 1 appears 1321 times (68%)** compared to **625 times of value 0 (32%)**. It shows that there exists an imbalance in the given data set.
 
 ### Data Visualizations
-- Table:
+- Table:   
 | # | REVENUE | CROSS_SELL_SUCCESS | NAME                | EMAIL                           | FIRST_NAME | FAMILY_NAME | TOTAL_MEALS_ORDERED | UNIQUE_MEALS_PURCH | CONTACTS_W_CUSTOMER_SERVICE | PRODUCT_CATEGORIES_VIEWED | EARLY_DELIVERIES | LATE_DELIVERIES | PACKAGE_LOCKER | REFRIGERATED_LOCKER | AVG_PREP_VID_TIME | LARGEST_ORDER_SIZE | MASTER_CLASSES_ATTENDED | MEDIAN_MEAL_RATING | AVG_CLICKS_PER_VISIT | TOTAL_PHOTOS_VIEWED |
 |-------|---------|--------------------|---------------------|--------------------------------|------------|-------------|---------------------|-------------------|----------------------------|-------------------------|----------------|---------------|---------------|-----------------|----------------|------------------|----------------------|------------------|-------------------|------------------|
 | 0     | 393.0   | 1                  | Saathos             | saathos@unitedhealth.com      | Saathos    | Saathos     | 14.0                | 6.0               | 12.0                        | 10.0                    | 0.0            | 2.0           | 0.0           | 0.0                 | 33.4              | 1.0                | 0.0                      | 1.0                  | 17.0                  | 0.0                  |
